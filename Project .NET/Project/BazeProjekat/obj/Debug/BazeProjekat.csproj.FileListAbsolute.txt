@@ -1,0 +1,13 @@
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\bin\Debug\BazeProjekat.exe.config
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\bin\Debug\BazeProjekat.exe
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\bin\Debug\BazeProjekat.pdb
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.csprojResolveAssemblyReference.cache
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.Form1.resources
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.Properties.Resources.resources
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.csproj.GenerateResource.Cache
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.exe
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.pdb
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\bin\Debug\Oracle.DataAccess.dll
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.Trgovina.resources
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.Zaposleni.resources
+C:\Users\vlado\Desktop\baze projekat\projekat\BazeProjekat\BazeProjekat\obj\Debug\BazeProjekat.Prodaja.resources

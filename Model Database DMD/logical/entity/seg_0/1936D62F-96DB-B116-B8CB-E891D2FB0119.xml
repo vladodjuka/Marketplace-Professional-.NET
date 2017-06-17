@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1936D62F-96DB-B116-B8CB-E891D2FB0119" name="Prodaja">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:30:41 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPROD" id="E71B00EB-B83E-E2E0-65CD-1895B2B550F2">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:30:50 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="115E9838-A319-B63A-5ACE-9319F52ACD84">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:31:02 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDK" id="C336F99D-AD95-4C7F-2E94-4A26837A7036">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:00:36 UTC</createdTime>
+<generatorID>8EB3F97D-4A38-1387-5A4D-05776646B170</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<referedAttribute>E9EBE91C-A764-AA54-3586-FE4372CF972D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="276BF038-140E-BF36-11CE-A226946A2300">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:01:06 UTC</createdTime>
+<generatorID>89C936A3-A08F-9026-BA24-9FB3E289D03D</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<referedAttribute>61ED68D3-22D0-AF28-72E1-02E460BACF12</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popust" id="0E574F85-7729-D89E-E1F6-5CDCF0B4E6CF">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-22 08:35:17 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3FBDE26-DE9C-3D5A-FCBD-0D6A3E325E20" name="Prodaja PK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:30:54 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E71B00EB-B83E-E2E0-65CD-1895B2B550F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E39D922E-FFD0-5931-D2CD-05D1A6FA4F18" name="Prodaja">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>1936D62F-96DB-B116-B8CB-E891D2FB0119</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPROD" id="DF186F1F-778C-EAF4-606F-02505A6A74FF">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>E71B00EB-B83E-E2E0-65CD-1895B2B550F2</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="A769270E-4852-86B5-A41E-32EADEE01DF9">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>115E9838-A319-B63A-5ACE-9319F52ACD84</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klijent_IDK" id="CEBC3626-086E-951E-7F73-C1F7FBA90EF4">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>C336F99D-AD95-4C7F-2E94-4A26837A7036</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9FD0565-A66B-7E17-6A37-4387A3BF81D0" referredColumn="E2A51586-5F70-A1BC-A42B-1D972714DDC3"/>
+</associations>
+</Column>
+<Column name="Zaposleni_JMBG" id="44914370-3CA8-8B10-E055-656F84F3F308">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>276BF038-140E-BF36-11CE-A226946A2300</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="863ADE3A-0D41-EA11-065E-F754CB508D5E" referredColumn="06FAEAF1-10FE-8D89-AB3D-6C8A94235444"/>
+</associations>
+</Column>
+<Column name="popust" id="D2897CEC-C0FD-13A6-8ECA-7E826516F44B">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-22 08:37:23 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F263204A-5DFD-336A-E61A-6D5873CB931F" name="Prodaja_PK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>B3FBDE26-DE9C-3D5A-FCBD-0D6A3E325E20</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF186F1F-778C-EAF4-606F-02505A6A74FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EDF66FA-8745-89AF-19C3-58B80249912E" name="Prodaja_Klijent_FK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>8EB3F97D-4A38-1387-5A4D-05776646B170</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEBC3626-086E-951E-7F73-C1F7FBA90EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8F89606-3982-2DB8-2995-126692A8D567" name="Prodaja_Zaposleni_FK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>89C936A3-A08F-9026-BA24-9FB3E289D03D</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44914370-3CA8-8B10-E055-656F84F3F308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

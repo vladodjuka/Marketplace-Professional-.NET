@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="281BA038-10BF-210E-D53A-57E0100611C0" name="Zaposleni">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:24:10 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JMBG" id="61ED68D3-22D0-AF28-72E1-02E460BACF12">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:24:21 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="1C112FB4-5540-CEB5-8466-2A5001CF7121">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:24:44 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="E92960D8-62AC-7B42-F587-81165030E26D">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:24:55 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_telefona" id="53DA31A6-B9BA-AE97-4266-67792E699305">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:25:23 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="korisnicko_ime" id="1877AC67-FA02-3226-5BE1-FC6BF66606C3">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-21 07:51:46 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra" id="0F206BF3-5C40-70D0-2AB1-9A99E8961871">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-21 07:52:14 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="630CB289-DEFC-6BD8-2832-EE3753AB3587" name="Zaposleni PK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:24:43 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61ED68D3-22D0-AF28-72E1-02E460BACF12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2317EA0-E0A9-434C-38CF-4A5FFCC8E970" name="Proizvod">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:22:23 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPROIZ" id="E35C7B16-CA82-BED8-1C83-1DCFB148F00C">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:22:30 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="8F0FEA6E-B962-FBE7-3D21-AC9D85C31772">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:22:39 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="A393A5DC-4FE4-062C-93EA-3DF407D65AB5">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:23:00 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolicina" id="BC0E5950-1FD0-193F-8615-4725DFBB9182">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:23:26 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sezona" id="F7921002-64FE-060A-9D59-071A9DF899B9">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:23:42 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_Vrste" id="B9D39168-7446-1EBA-60DF-7C35A027CCD1">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:46:09 UTC</createdTime>
+<generatorID>5C2D8202-BBE4-91CC-0D3C-2D68DFD00B1F</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<referedAttribute>6C793E39-89DC-965C-0DEF-964A218EE90D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9891647D-9CA5-6BF3-E451-61C0A9EE7B45" name="Proizvod PK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 07:22:41 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E35C7B16-CA82-BED8-1C83-1DCFB148F00C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

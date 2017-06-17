@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Proizvodi_Prodaja" directorySegmentName="seg_0" id="B1CAAADA-9C59-314F-9F49-F505DDAC4E15">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:01:26 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F2317EA0-E0A9-434C-38CF-4A5FFCC8E970</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1936D62F-96DB-B116-B8CB-E891D2FB0119</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="kolicina" id="A1C9D6B5-3700-58C7-E166-EAA3581930CB">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-21 09:53:25 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<engineerTo>
+<item key="5BDE0EC3-8117-B5D5-FB3B-D28C6700F1CD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="934CDFBB-1D08-D8AA-20B4-311548F006BB" name="Proizvod">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>F2317EA0-E0A9-434C-38CF-4A5FFCC8E970</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPROIZ" id="1B435942-34CB-2015-3681-5C2A4001945C">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>E35C7B16-CA82-BED8-1C83-1DCFB148F00C</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="AAE5D558-1DA8-A86B-FCF6-961A04ADE17A">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>8F0FEA6E-B962-FBE7-3D21-AC9D85C31772</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cijena" id="0A2A008C-83C9-DA48-2F2F-06131E4DDD87">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>A393A5DC-4FE4-062C-93EA-3DF407D65AB5</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="B12E3551-A2F2-EBBF-9988-13F7B0B56217">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>BC0E5950-1FD0-193F-8615-4725DFBB9182</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sezona" id="B7787EC9-DC27-ADDD-2E1A-5A459765CA1B">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>F7921002-64FE-060A-9D59-071A9DF899B9</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrsta_proizvoda_Naziv_Vrste" id="1DE16833-048E-6696-2AB6-4F2A654C1218">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>B9D39168-7446-1EBA-60DF-7C35A027CCD1</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55988A5C-5BB3-D549-7DBB-67FA63657AA7" referredColumn="A619BB33-421E-B60A-BE43-D6441302E83E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2EA96DF-757C-4941-3F50-C0DF53894812" name="Proizvod_PK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>9891647D-9CA5-6BF3-E451-61C0A9EE7B45</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B435942-34CB-2015-3681-5C2A4001945C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7377A90-3438-CF54-A8F4-6603CD3FBBC3" name="Proizvod_Vrsta_proizvoda_FK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:02:48 UTC</createdTime>
+<generatorID>5C2D8202-BBE4-91CC-0D3C-2D68DFD00B1F</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DE16833-048E-6696-2AB6-4F2A654C1218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F18AE2B-50A3-5009-E0B8-0B68DC082E8F" name="proizvodiProdaja">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:06:43 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proizvod_IDPROIZ" id="7278528A-883C-96EA-AF7A-0FA12737D3AA">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:06:43 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B93A6EF-D0DD-E445-A9C5-6ED11D6F6D69" referredColumn="1B435942-34CB-2015-3681-5C2A4001945C"/>
+</associations>
+</Column>
+<Column name="Prodaja_IDPROD" id="2880CE0A-FC87-59C8-65AB-5311E3833CE3">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:06:43 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="914C2E48-51BF-303A-6419-342B0DDEB5D8" referredColumn="DF186F1F-778C-EAF4-606F-02505A6A74FF"/>
+</associations>
+</Column>
+<Column name="kolicina" id="68CC6E03-989E-B71D-702E-C241CA522604">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-21 09:51:34 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6279908-61BE-3B92-93DE-B49B37B9A66A" name="Relation_4_PK">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:06:43 UTC</createdTime>
+<ownerDesignName>Vladimir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7278528A-883C-96EA-AF7A-0FA12737D3AA"/>
+<colUsage columnID="2880CE0A-FC87-59C8-65AB-5311E3833CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E18A6A50-8370-6937-75FC-96947962D1BA" name="FK_ASS_8">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:06:43 UTC</createdTime>
+<generatorID>B1CAAADA-9C59-314F-9F49-F505DDAC4E15</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7278528A-883C-96EA-AF7A-0FA12737D3AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0D3CA00-4BA7-918E-A51E-E5F8446106C0" name="FK_ASS_9">
+<createdBy>vlado</createdBy>
+<createdTime>2016-05-20 09:06:43 UTC</createdTime>
+<generatorID>B1CAAADA-9C59-314F-9F49-F505DDAC4E15</generatorID>
+<ownerDesignName>Vladimir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2880CE0A-FC87-59C8-65AB-5311E3833CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
